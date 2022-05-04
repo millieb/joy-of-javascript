@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a76891e-70cd-4828-8b2a-24021b83326d" name="Changes" comment="Adding work for day 6/100 days of code.">
-      <change beforePath="$PROJECT_DIR$/3-LinkedCompositionalObjectModels/ModelingTransaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/3-LinkedCompositionalObjectModels/ModelingTransaction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-LinkedCompositionalObjectModels/BlockchainDefinitionMixins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +53,8 @@
       <workItem from="1650933450705" duration="859000" />
       <workItem from="1650944623487" duration="2740000" />
       <workItem from="1651033360815" duration="2032000" />
+      <workItem from="1651620759596" duration="164000" />
+      <workItem from="1651621200985" duration="1827000" />
     </task>
     <task id="LOCAL-00001" summary="Adding work for day 6/100 days of code.">
       <created>1650947334909</created>
