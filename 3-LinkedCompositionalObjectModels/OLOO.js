@@ -25,3 +25,36 @@ Object.create = funtion(proto, propertiesObject) {
 */
 
 // Let's start wiring up the chain and connect all of our objects.
+// Here we are playing with the concept of the blockchain data structure
+
+// A blockchain is an object that stores consecutive elements called 'blocks'
+
+const MyStore = {
+    // init is in charge of typical object constructor logic
+    // as well as setting the properties of the new instances
+    init(element) {
+        this.length = 0;
+        this.push(element);
+    },
+    push(b){
+        this[this.length] = b;
+        return ++this.length;
+    }
+}
+
+const Blockchain = Object.create(MyStore); // linking objects MyStore and Blockchain
+
+// then we link chain which is an instance object with all the functionality
+const chain = Object.create(Blockchain);
+chain.init(createGenesisBlock);
+chain.push(new Block(/*...*/));
+chain.length; // 2
+
+
+
+
+
+
+
+
+
